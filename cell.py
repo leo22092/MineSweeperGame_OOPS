@@ -9,6 +9,12 @@ class Cell:
             text="text"
         )
         btn.bind('<Button-1>',self.left_click_Action)
+        btn.bind('<Button-3>',self.right_click_Action)
+
         self.cell_btn_object=btn
-    def left_click_Action(self):
+    def left_click_Action(self,event):
+        print(event)
         print("I am left click")
+    def right_click_Action(self,event):
+        print(event)
+        print("I am riht click")
