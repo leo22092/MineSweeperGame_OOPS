@@ -48,6 +48,12 @@ c1.create_button_object(centre_frame)
 c1.cell_btn_object.grid(column=0,row=0)
 c1.create_button_object(centre_frame)
 c1.cell_btn_object.grid(column=0,row=1)
+for x in range(5):
+    for y in range(5):
+        c=Cell()
+        c.create_button_object(centre_frame)
+        c.cell_btn_object.grid(column=x,row=y)
+
 root.mainloop()
 
 if __name__ == '__main__':
