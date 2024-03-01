@@ -8,4 +8,7 @@ class Cell:
             location,
             text="text"
         )
+        btn.bind('<Button-1>',self.left_click_Action)
         self.cell_btn_object=btn
+    def left_click_Action(self):
+        print("I am left click")
