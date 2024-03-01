@@ -1,0 +1,16 @@
+Created hard coded frames
+created settings file
+created utils file
+Creating a cell class
+cant place every element using place method so use grid which takes in parent element and
+converts it to columns and rows,
+column number and row number instead of pixel value.
+Use a nested for loop
+
+How can events be assigned on a button left click or right click?
+<Button-1>  implies left click
+<Button-3>  implies right click
+remember not calling the funcgtion just referencing it.
+Event recived on left click when printed looked like this ,
+<ButtonPress event state=Mod1 num=1 x=23 y=4>
+location where clicked ( x and y)
